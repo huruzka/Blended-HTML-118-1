@@ -51,11 +51,6 @@ button{
     line-height: 1.75;
     color: #22343d;
 }
-
-.nav-list-item {
-    
-}
-
 .nav-list-link {
     padding: 26px 0;
     display: block;
@@ -67,8 +62,6 @@ button{
     gap: 21px;
     align-items: center;
 }
-
-.list-butn-item {}
 
 .list-butn-sing-in {
     width: 105px;
@@ -92,7 +85,12 @@ button{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.hero {}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 166px;
+}
 
 .hero-title {
     font-weight: 700;
@@ -107,8 +105,6 @@ button{
     line-height: 156%;
     color: #22343d;
 }
-
-.hero-btn-list {}
 
 .hero-lidt-btn-get {
     border-radius: 4px;
@@ -129,28 +125,65 @@ button{
     background-color: transparent;
     color: #02897a;
     }
-    .hero-icon-triangle{
-        fill:#02897A;
-        margin-right: 8.66px;
-    }
+.hero-icon-triangle{
+    fill:#02897A;
+    margin-right: 8.66px;
+}
+
 .product-title{
+    width: 539px;
     font-weight: 700;
     font-size: 32px;
     text-align: center;
     color: #22343d;
+    text-align: center;
+    margin-bottom: 42px;
 }
-.product-list-subtitle{
+.product-list{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.product-column{
+flex-basis: calc((100% - 3 * 30px) / 4);
+}
+.produst-icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 19px;
+    margin-bottom: 26px;
+}
+.produst-icon-box.row{
+    background-color: #02897A;
+}
+.produst-icon-box.vawe{
+    background-color: #4D8DFF;
+}
+.produst-icon-box.hart{
+    background-color: #740A76;
+}
+.produst-icon-box.clock{
+    background-color: #F03E3D;
+}
+.product-icon-svg{
+    fill: #FFFFFF;
+}
+.product-list-subtitle {
     font-weight: 600;
     font-size: 22px;
     color: #22343d;
+    margin-bottom: 13px;
 }
-.product-list-text{
+.product-list-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 162%;
     color: #22343d;
 }
-.product-list-btn{
+.product-list-btn {
     min-width: 175px;
     height: 53px;
     font-weight: 700;
