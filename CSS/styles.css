@@ -94,14 +94,68 @@ button{
 
 .hero {}
 
-.hero-title {}
+.hero-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #22343d;
+}
 
-.hero-text {}
+.hero-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: #22343d;
+}
 
 .hero-btn-list {}
 
-.hero-list-item {}
-
-.hero-lidt-btn-get {}
-
-.hero-lidt-btn-watch {}
+.hero-lidt-btn-get {
+    border-radius: 4px;
+        min-width: 178px;
+        height: 53px;
+        font-weight: 700;
+        font-size: 16px;
+    background-color: #02897A;
+    color: #FFFFFF;
+}
+.hero-lidt-btn-watch {
+    font-weight: 600;
+    min-width: 178px;
+    height: 53px;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    background-color: transparent;
+    color: #02897a;
+    }
+    .hero-icon-triangle{
+        fill:#02897A;
+        margin-right: 8.66px;
+    }
+.product-title{
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+}
+.product-list-subtitle{
+    font-weight: 600;
+    font-size: 22px;
+    color: #22343d;
+}
+.product-list-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #22343d;
+}
+.product-list-btn{
+    min-width: 175px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background-color: #02897a;
+}
